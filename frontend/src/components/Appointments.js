@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:8000/api';
+const API = 'https://smc-hnv-production.up.railway.app/api';
 
 const TIME_SLOTS = [
   { period: 'Morning', slots: ['08:00', '09:00', '10:00', '11:00'] },

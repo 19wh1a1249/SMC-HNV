@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:8000/api';
+const API = 'https://smc-hnv-production.up.railway.app/api';
 
 function Invoices({ invoices, setInvoices }) {
   const [name, setName] = useState('');

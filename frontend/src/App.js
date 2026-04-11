@@ -6,7 +6,7 @@ import Appointments from './components/Appointments';
 import Invoices from './components/Invoices';
 import Calendar from './components/Calendar';
 
-const API = 'http://localhost:8000/api';
+const API = 'https://smc-hnv-production.up.railway.app/api';
 
 function App() {
   const [activeTab, setActiveTab] = useState('appointments');
